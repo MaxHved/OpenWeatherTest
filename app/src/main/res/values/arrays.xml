@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="units_labels">
+        <item>Metric</item>
+        <item>Imperial</item>
+        <item>Standard</item>
+    </array>
+
+    <array name="units_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+        <item>STANDARD</item>
+    </array>
+
+    <array name="period_update_labels">
+        <item>1 hour</item>
+        <item>30 minutes</item>
+        <item>15 minutes</item>
+        <item>NONE</item>
+    </array>
+
+    <array name="period_update_values">
+        <item>HOUR</item>
+        <item>HALF_HOUR</item>
+        <item>QUARTER_HOUR</item>
+        <item>NONE</item>
+    </array>
+
+</resources>

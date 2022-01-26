@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <DropDownPreference
+        android:entries="@array/units_labels"
+        android:entryValues="@array/units_values"
+        android:key="@string/preference_key_units"
+        android:title="@string/settings_title_units"
+        app:defaultValue="METRIC"
+        app:useSimpleSummaryProvider="true" />
+
+    <DropDownPreference
+        android:entries="@array/period_update_labels"
+        android:entryValues="@array/period_update_values"
+        android:key="@string/preference_key_period_update"
+        android:title="@string/settings_title_period_update"
+        app:defaultValue="HOUR"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
